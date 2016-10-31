@@ -49,5 +49,15 @@ class BintangSegitiga {
             System.out.println();
         }
         
+        // Segitigas sama kaki 
+        for(i=0; i<=panjang; i++) {
+            for (int m=1; m<=panjang-i; m++) {
+                System.out.print (" ");
+            }
+            for (int m=1; m<2*i; m++) {
+                System.out.print ("*");
+            }
+        System.out.println (" ");
+        }
     }
 }
